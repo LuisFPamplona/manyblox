@@ -1,0 +1,13 @@
+﻿PASS numeric ID injection rejected
+PASS duplicate accounts and invalid state rejected
+PASS credential marker rejected
+PASS URI policy
+PASS overlapping URI prefix and suffix rejected
+PASS DPAPI round trip and tamper rejection
+PASS save, atomic replace, restart and encrypted disk
+PASS DACL excludes other ordinary users
+PASS corrupt storage fails closed
+PASS unknown fields and legacy credential imports rejected
+PASS oversized state rejected before decryption
+PASS WinForms construction and rendering with synthetic data
+RESULT: 12 tests passed.

@@ -1,0 +1,627 @@
+[
+  {
+    "Package": "Baseclass.Contrib.Nuget.Output",
+    "Version": "2.4.4",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "cef.redist.x64",
+    "Version": "109.1.11",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "cef.redist.x86",
+    "Version": "109.1.11",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "CefSharp.Common",
+    "Version": "117.2.20",
+    "Advisories": [
+      {
+        "url": "https://github.com/advisories/GHSA-85jm-cwp2-mvpv",
+        "severity": 1,
+        "versions": "(, 148.0.90)"
+      }
+    ],
+    "Action": "Removed; not restored or executed",
+    "Result": "Affected version in official feed; exploitability not established"
+  },
+  {
+    "Package": "CefSharp.WinForms",
+    "Version": "109.1.110",
+    "Advisories": [
+      {
+        "url": "https://github.com/advisories/GHSA-f87w-3j5w-v58p",
+        "severity": 2,
+        "versions": "(, 134.3.90)"
+      }
+    ],
+    "Action": "Removed; not restored or executed",
+    "Result": "Affected version in official feed; exploitability not established"
+  },
+  {
+    "Package": "Costura.Fody",
+    "Version": "5.7.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Esendex.TokenBucket",
+    "Version": "1.0.7",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "FCTB",
+    "Version": "2.16.24",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Fody",
+    "Version": "6.7.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "libsodium-net",
+    "Version": "0.10.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "log4net",
+    "Version": "2.0.15",
+    "Advisories": [
+      {
+        "url": "https://github.com/advisories/GHSA-4f7c-pmjv-c25w",
+        "severity": 1,
+        "versions": "(, 3.3.0)"
+      }
+    ],
+    "Action": "Removed; not restored or executed",
+    "Result": "Affected version in official feed; exploitability not established"
+  },
+  {
+    "Package": "Microsoft.AspNetCore.WebUtilities",
+    "Version": "2.2.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Microsoft.Bcl.AsyncInterfaces",
+    "Version": "7.0.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Microsoft.Extensions.DependencyInjection",
+    "Version": "7.0.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Microsoft.Extensions.DependencyInjection.Abstractions",
+    "Version": "7.0.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Microsoft.Extensions.Logging",
+    "Version": "7.0.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Microsoft.Extensions.Logging.Abstractions",
+    "Version": "7.0.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Microsoft.Extensions.Options",
+    "Version": "7.0.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Microsoft.Extensions.Primitives",
+    "Version": "7.0.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Microsoft.Net.Http.Headers",
+    "Version": "2.2.8",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Microsoft.NETCore.Platforms",
+    "Version": "7.0.2",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Microsoft.Win32.Primitives",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "NETStandard.Library",
+    "Version": "2.0.3",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Newtonsoft.Json",
+    "Version": "13.0.3",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Newtonsoft.Json.Schema",
+    "Version": "3.0.15",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "ObjectListView.Official",
+    "Version": "2.9.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "PuppeteerExtraSharp",
+    "Version": "2.0.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "PuppeteerSharp",
+    "Version": "10.0.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "RestSharp",
+    "Version": "110.2.0",
+    "Advisories": [
+      {
+        "url": "https://github.com/advisories/GHSA-4rr6-2v9v-wcpc",
+        "severity": 1,
+        "versions": "[107.0.0-preview.1, 112.0.0)"
+      }
+    ],
+    "Action": "Removed; not restored or executed",
+    "Result": "Affected version in official feed; exploitability not established"
+  },
+  {
+    "Package": "SharpZipLib",
+    "Version": "1.4.2",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.AppContext",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Buffers",
+    "Version": "4.5.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Collections",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Collections.Concurrent",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Console",
+    "Version": "4.3.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Diagnostics.Debug",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Diagnostics.DiagnosticSource",
+    "Version": "7.0.2",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Diagnostics.Tools",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Diagnostics.Tracing",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Globalization",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Globalization.Calendars",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.IO",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.IO.Compression",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.IO.Compression.ZipFile",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.IO.FileSystem",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.IO.FileSystem.Primitives",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Linq",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Linq.Expressions",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Memory",
+    "Version": "4.5.5",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Net.Http",
+    "Version": "4.3.4",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Net.Http.Json",
+    "Version": "7.0.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Net.Primitives",
+    "Version": "4.3.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Net.Sockets",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Numerics.Vectors",
+    "Version": "4.5.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.ObjectModel",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Reflection",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Reflection.Extensions",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Reflection.Primitives",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Resources.ResourceManager",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Runtime",
+    "Version": "4.3.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Runtime.CompilerServices.Unsafe",
+    "Version": "6.0.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Runtime.Extensions",
+    "Version": "4.3.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Runtime.Handles",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Runtime.InteropServices",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Runtime.InteropServices.RuntimeInformation",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Runtime.Numerics",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Security.Cryptography.Algorithms",
+    "Version": "4.3.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Security.Cryptography.Encoding",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Security.Cryptography.Primitives",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Security.Cryptography.X509Certificates",
+    "Version": "4.3.2",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Text.Encoding",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Text.Encoding.Extensions",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Text.Encodings.Web",
+    "Version": "7.0.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Text.Json",
+    "Version": "7.0.2",
+    "Advisories": [
+      {
+        "url": "https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
+        "severity": 2,
+        "versions": "[7.0.0, 8.0.4)"
+      }
+    ],
+    "Action": "Removed; not restored or executed",
+    "Result": "Affected version in official feed; exploitability not established"
+  },
+  {
+    "Package": "System.Text.RegularExpressions",
+    "Version": "4.3.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Threading",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Threading.Tasks",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Threading.Tasks.Extensions",
+    "Version": "4.5.4",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Threading.Timer",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.ValueTuple",
+    "Version": "4.5.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Xml.ReaderWriter",
+    "Version": "4.3.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "System.Xml.XDocument",
+    "Version": "4.3.0",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "WebSocketSharp-netstandard",
+    "Version": "1.0.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "WindowsAPICodePack-Core",
+    "Version": "1.1.2",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  },
+  {
+    "Package": "Yove.Proxy",
+    "Version": "1.1.1",
+    "Advisories": [],
+    "Action": "Removed; not restored or executed",
+    "Result": "No matching advisory in feed; not a safety guarantee"
+  }
+]

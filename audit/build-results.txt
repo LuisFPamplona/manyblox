@@ -1,0 +1,2 @@
+﻿  Manyblox -> C:\dev\Manyblox\src\Manyblox\bin\Release\net10.0-windows\Manyblox.dll
+  Manyblox -> C:\dev\Manyblox\artifacts\windows-x64\
