@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace Manyblox;
 
-public sealed record AccountEntry(Guid Id, string Username, string Alias, string Category, long UserId);
+public sealed record AccountEntry(Guid Id, string Username, string Alias, string Category, long UserId, string ProtectedSession = "");
 public sealed record LocalState(int Version, List<AccountEntry> Accounts, Guid? SelectedId, long LastPlaceId)
 {
     public static LocalState Empty() => new(1, [], null, 0);
@@ -24,7 +24,9 @@ public static partial class Rules
         {
             if (a is null || a.Id == Guid.Empty || !ids.Add(a.Id) || a.Username is null ||
                 !UsernamePattern().IsMatch(a.Username) || !names.Add(a.Username) || a.UserId < 0 ||
-                !SafeLabel(a.Alias, 80) || !SafeLabel(a.Category, 80))
+                !SafeLabel(a.Alias, 80) || !SafeLabel(a.Category, 80) ||
+                a.ProtectedSession is null || a.ProtectedSession.Length > 32768 ||
+                (a.ProtectedSession.Length > 0 && (a.UserId <= 0 || !SessionCredential.IsCiphertext(a.ProtectedSession))))
                 throw new InvalidDataException("Cadastro inválido ou duplicado. Não informe senhas ou cookies.");
         }
         if (state.SelectedId is Guid selected && !ids.Contains(selected))

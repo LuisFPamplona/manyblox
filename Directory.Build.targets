@@ -1,0 +1,9 @@
+<Project>
+  <!-- The official WebView2 package also adds WPF references. This app and its
+       tests use WinForms only; remove the unused WPF assembly before resolution. -->
+  <Target Name="RemoveUnusedWebView2WpfReference" BeforeTargets="ResolveAssemblyReferences" Condition="'$(UseWPF)' != 'true'">
+    <ItemGroup>
+      <Reference Remove="@(Reference)" Condition="'%(Reference.Filename)' == 'Microsoft.Web.WebView2.Wpf'" />
+    </ItemGroup>
+  </Target>
+</Project>

@@ -21,6 +21,15 @@ public static class RobloxActions
         Process.Start(new ProcessStartInfo(uri.AbsoluteUri) { UseShellExecute = true })?.Dispose();
     }
 
+    public static void ForwardOfficialClientRequest(string value, string origin, string source, bool authorized)
+    {
+        if (!BrowserPolicy.CanLaunchClient(value, origin, source, authorized))
+            throw new InvalidDataException("Solicitação de lançamento não permitida.");
+        // Forward only the official website's request to the installed protocol
+        // handler. Never persist or include its short-lived ticket in diagnostics.
+        Process.Start(new ProcessStartInfo(value) { UseShellExecute = true })?.Dispose();
+    }
+
     public static bool IsAllowed(Uri uri)
     {
         if (!uri.IsAbsoluteUri) return false;

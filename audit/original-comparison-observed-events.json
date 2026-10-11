@@ -1,0 +1,47 @@
+﻿[
+    {
+        "at":  "2026-10-11T01:44:29.2593063Z",
+        "code":  "BROWSER_PENDING",
+        "pid":  null
+    },
+    {
+        "at":  "2026-10-11T01:45:07.6149123Z",
+        "code":  "PROTOCOL_REQUESTED",
+        "pid":  null
+    },
+    {
+        "at":  "2026-10-11T01:45:08.0398386Z",
+        "code":  "NEW_PROCESS_UNVERIFIED_ACCOUNT",
+        "pid":  6280
+    },
+    {
+        "at":  "2026-10-11T01:45:18.0674202Z",
+        "code":  "PROCESS_STABLE_NOT_GAME_VERIFIED",
+        "pid":  6280
+    },
+    {
+        "at":  "2026-10-11T01:45:20.2821848Z",
+        "code":  "BROWSER_PENDING",
+        "pid":  null
+    },
+    {
+        "at":  "2026-10-11T01:45:31.130256Z",
+        "code":  "PROTOCOL_REQUESTED",
+        "pid":  null
+    },
+    {
+        "at":  "2026-10-11T01:45:32.1447546Z",
+        "code":  "NEW_PROCESS_UNVERIFIED_ACCOUNT",
+        "pid":  10932
+    },
+    {
+        "at":  "2026-10-11T01:45:35.1593694Z",
+        "code":  "CLIENT_ENDED",
+        "pid":  6280
+    },
+    {
+        "at":  "2026-10-11T01:45:35.1603595Z",
+        "code":  "PRIOR_CLIENT_ENDED_POSSIBLE_REPLACEMENT",
+        "pid":  10932
+    }
+]

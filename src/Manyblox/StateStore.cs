@@ -20,10 +20,19 @@ public sealed class StateStore : IDisposable
     public static string DefaultDirectory => Path.Combine(
         Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Manyblox");
     public string DataPath => Path.Combine(directory, "accounts.dpapi");
+    public string DirectoryPath => directory;
 
     public StateStore(string path)
     {
         directory = Path.GetFullPath(path);
+        SecureDirectory(directory);
+        var lockPath = Path.Combine(directory, "session.lock");
+        RejectLink(lockPath);
+        sessionLock = new FileStream(lockPath, FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.None);
+    }
+
+    public static void SecureDirectory(string directory)
+    {
         // Reject junctions/symlinks in the path before writing.
         for (DirectoryInfo? d = new(directory); d is not null; d = d.Parent)
             if (d.Exists && (d.Attributes & FileAttributes.ReparsePoint) != 0)
@@ -36,9 +45,6 @@ public sealed class StateStore : IDisposable
             acl.AddAccessRule(new FileSystemAccessRule(sid, FileSystemRights.FullControl,
                 InheritanceFlags.ContainerInherit | InheritanceFlags.ObjectInherit, PropagationFlags.None, AccessControlType.Allow));
         new DirectoryInfo(directory).SetAccessControl(acl);
-        var lockPath = Path.Combine(directory, "session.lock");
-        RejectLink(lockPath);
-        sessionLock = new FileStream(lockPath, FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.None);
     }
 
     private static void RejectLink(string path)
@@ -75,6 +81,7 @@ public sealed class StateStore : IDisposable
         try
         {
             byte[] encrypted = UserProtection.Protect(plain);
+            if (encrypted.Length > MaxBytes) throw new InvalidDataException("Limite de armazenamento atingido.");
             using (var stream = new FileStream(temporary, FileMode.CreateNew, FileAccess.Write, FileShare.None))
             {
                 stream.Write(encrypted);

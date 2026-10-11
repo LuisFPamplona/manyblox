@@ -1,4 +1,8 @@
+> Histórico: este documento registra uma revisão anterior. Para v1.3.1-beta.1, consulte README.md, SECURITY.md e MULTI_INSTANCE_ORIGINAL_COMPARISON.md. O usuário relatou duas instâncias funcionando em 1.3.1; não é certificação independente.
+
 # Auditoria de segurança — Manyblox
+
+**Escopo histórico: reconstrução 1.0.0 e ZIP original.** As afirmações abaixo sobre ausência de navegador, rede, cookies e pacotes aplicam-se à versão 1.0.0. A revisão local 1.2.0 adiciona WebView2 oficial, leitura autorizada da sessão interna, DPAPI, consulta de identidade ao Roblox e PLAY pela página oficial. Políticas e limites atuais estão em [LOGIN_INTERNO.md](LOGIN_INTERNO.md). Ela não passou por toda a validação dinâmica desta auditoria.
 
 Data: 10/10/2026 (America/Sao_Paulo). Resultado: reconstrução local compilada; não é certificação de segurança nem prova de que o release original contém ou não malware.
 

@@ -1,4 +1,5 @@
 .tools/
+.packages/
 **/bin/
 **/obj/
 audit/dotnet-sdk.zip

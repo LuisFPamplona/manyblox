@@ -1,4 +1,8 @@
+> Histórico: este documento registra uma revisão anterior. Para v1.3.1-beta.1, consulte README.md, SECURITY.md e MULTI_INSTANCE_ORIGINAL_COMPARISON.md. O usuário relatou duas instâncias funcionando em 1.3.1; não é certificação independente.
+
 # Plano e decisões
+
+Este plano registra a reconstrução inicial 1.0.0. A revisão 1.2.0 implementa [LOGIN_INTERNO.md](LOGIN_INTERNO.md): login WebView2, leitura autorizada somente da sessão interna, confirmação da identidade, armazenamento DPAPI e PLAY pela página oficial. Não lê senhas ou perfis pessoais, não reutiliza binários antigos nem desativa proteções. A exigência de duas instâncias permanece sem validação; a prioridade do usuário de não contornar restrições do Roblox continua.
 
 1. Inventariar o ZIP sem executar seus binários ou builds. Preservar evidências em `audit/original`, registrar SHA-256 e superfícies de rede/execução.
 2. Prioridade crítica: retirar Nexus/Lua remoto, servidores locais, exposição de cookies, navegador inseguro e atualizador sem verificação. Não compilar o projeto original, que copia um launcher pré-compilado no pós-build.
