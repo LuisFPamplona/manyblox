@@ -1,0 +1,7 @@
+.tools/
+**/bin/
+**/obj/
+audit/dotnet-sdk.zip
+audit/dotnet-releases.json
+audit/original/
+artifacts/
